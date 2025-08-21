@@ -22,7 +22,7 @@ package services
 
 import (
 	longrunningpb "cloud.google.com/go/longrunning/autogen/longrunningpb"
-	resources "github.com/shenzhencenter/google-ads-pb/resources"
+	resources "github.com/taigroddy/google-ads-pb/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

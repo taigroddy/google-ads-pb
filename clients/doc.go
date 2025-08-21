@@ -58,7 +58,7 @@
 //
 //	req := &servicespb.MutateCampaignLabelsRequest{
 //		// TODO: Fill request struct fields.
-//		// See https://pkg.go.dev/github.com/shenzhencenter/google-ads-pb/services#MutateCampaignLabelsRequest.
+//		// See https://pkg.go.dev/github.com/taigroddy/google-ads-pb/services#MutateCampaignLabelsRequest.
 //	}
 //	resp, err := c.MutateCampaignLabels(ctx, req)
 //	if err != nil {

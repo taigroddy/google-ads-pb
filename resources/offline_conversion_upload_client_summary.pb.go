@@ -21,14 +21,15 @@
 package resources
 
 import (
-	enums "github.com/shenzhencenter/google-ads-pb/enums"
-	errors "github.com/shenzhencenter/google-ads-pb/errors"
-	_ "google.golang.org/genproto/googleapis/api/annotations"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	enums "github.com/taigroddy/google-ads-pb/enums"
+	errors "github.com/taigroddy/google-ads-pb/errors"
+	_ "google.golang.org/genproto/googleapis/api/annotations"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (

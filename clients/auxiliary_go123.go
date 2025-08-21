@@ -22,8 +22,8 @@ import (
 	"iter"
 
 	"github.com/googleapis/gax-go/v2/iterator"
-	resourcespb "github.com/shenzhencenter/google-ads-pb/resources"
-	servicespb "github.com/shenzhencenter/google-ads-pb/services"
+	resourcespb "github.com/taigroddy/google-ads-pb/resources"
+	servicespb "github.com/taigroddy/google-ads-pb/services"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 )
 

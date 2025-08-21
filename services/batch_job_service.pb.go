@@ -21,17 +21,18 @@
 package services
 
 import (
+	reflect "reflect"
+	sync "sync"
+	unsafe "unsafe"
+
 	longrunningpb "cloud.google.com/go/longrunning/autogen/longrunningpb"
-	enums "github.com/shenzhencenter/google-ads-pb/enums"
-	resources "github.com/shenzhencenter/google-ads-pb/resources"
+	enums "github.com/taigroddy/google-ads-pb/enums"
+	resources "github.com/taigroddy/google-ads-pb/resources"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/emptypb"
-	reflect "reflect"
-	sync "sync"
-	unsafe "unsafe"
 )
 
 const (

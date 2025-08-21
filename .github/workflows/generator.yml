@@ -14,7 +14,7 @@ jobs:
       image: alpine:latest
       env:
         VERSION: ${{ github.event.inputs.version }}
-        PUBLISH_PKG: github.com/shenzhencenter/google-ads-pb
+        PUBLISH_PKG: github.com/taigroddy/google-ads-pb
         INPUT_PATH: /googleapis
         OUTPUT_PATH: ~/go/src/google-ads-pb
         ADSLIB_PATH: /googleapis/google/ads/googleads/${{ github.event.inputs.version }}
@@ -33,7 +33,7 @@ jobs:
 
       - name: Clone repositories
         run: |
-          git clone --branch=develop https://$GITHUB_ACTOR_ID:${{ secrets.GITHUB_TOKEN }}@github.com/shenzhencenter/google-ads-pb.git $OUTPUT_PATH
+          git clone --branch=develop https://$GITHUB_ACTOR_ID:${{ secrets.GITHUB_TOKEN }}@github.com/taigroddy/google-ads-pb.git $OUTPUT_PATH
           git clone --depth=1 --branch=master https://github.com/googleapis/googleapis.git $INPUT_PATH
           if [ ! -d $INPUT_PATH/google/protobuf ]; then
             git clone --depth=1 --branch=main https://github.com/protocolbuffers/protobuf.git /protobuf
@@ -77,7 +77,7 @@ jobs:
         run: |
           cd $OUTPUT_PATH
           if [ ! -f go.mod ]; then
-            go mod init github.com/shenzhencenter/google-ads-pb
+            go mod init github.com/taigroddy/google-ads-pb
           fi
           go mod tidy
           go fmt ./...

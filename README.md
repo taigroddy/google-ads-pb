@@ -1,12 +1,12 @@
 
 # Google Ads API Client Library for Golang
 
-[![Go](https://github.com/shenzhencenter/google-ads-pb/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/shenzhencenter/google-ads-pb/actions/workflows/go.yml)
-[![GoDoc](https://godoc.org/github.com/shenzhencenter/google-ads-pb?status.svg)](https://pkg.go.dev/github.com/shenzhencenter/google-ads-pb)
-[![Go Report Card](https://goreportcard.com/badge/github.com/shenzhencenter/google-ads-pb)](https://goreportcard.com/report/github.com/shenzhencenter/google-ads-pb)
+[![Go](https://github.com/taigroddy/google-ads-pb/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/taigroddy/google-ads-pb/actions/workflows/go.yml)
+[![GoDoc](https://godoc.org/github.com/taigroddy/google-ads-pb?status.svg)](https://pkg.go.dev/github.com/taigroddy/google-ads-pb)
+[![Go Report Card](https://goreportcard.com/badge/github.com/taigroddy/google-ads-pb)](https://goreportcard.com/report/github.com/taigroddy/google-ads-pb)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This library provides a Golang client for the [Google Ads API](https://developers.google.com/google-ads/api/docs/start). It's fully generated from the [googleapis](https://github.com/googleapis/googleapis/tree/master/google/ads/googleads) repository. More information on the generation process can be found [here](https://github.com/shenzhencenter/google-ads-pb/blob/main/.github/workflows/generator.yml).
+This library provides a Golang client for the [Google Ads API](https://developers.google.com/google-ads/api/docs/start). It's fully generated from the [googleapis](https://github.com/googleapis/googleapis/tree/master/google/ads/googleads) repository. More information on the generation process can be found [here](https://github.com/taigroddy/google-ads-pb/blob/main/.github/workflows/generator.yml).
 
 Although this project isn't official, we deem it as low-risk due to its maturity and our many years of using it in production. However, always consult the [sunset schedule](https://developers.google.com/google-ads/api/docs/sunset-dates) of the Google Ads API.
 
@@ -36,7 +36,7 @@ Although this project isn't official, we deem it as low-risk due to its maturity
 ## Installation
 
 ```bash
-go get github.com/shenzhencenter/google-ads-pb
+go get github.com/taigroddy/google-ads-pb
 ```
 
 ## Getting started

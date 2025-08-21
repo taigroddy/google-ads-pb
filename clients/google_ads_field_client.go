@@ -25,8 +25,8 @@ import (
 	"time"
 
 	gax "github.com/googleapis/gax-go/v2"
-	resourcespb "github.com/shenzhencenter/google-ads-pb/resources"
-	servicespb "github.com/shenzhencenter/google-ads-pb/services"
+	resourcespb "github.com/taigroddy/google-ads-pb/resources"
+	servicespb "github.com/taigroddy/google-ads-pb/services"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 	"google.golang.org/api/option/internaloption"

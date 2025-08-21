@@ -22,8 +22,8 @@ import (
 
 	"cloud.google.com/go/longrunning"
 	gax "github.com/googleapis/gax-go/v2"
-	resourcespb "github.com/shenzhencenter/google-ads-pb/resources"
-	servicespb "github.com/shenzhencenter/google-ads-pb/services"
+	resourcespb "github.com/taigroddy/google-ads-pb/resources"
+	servicespb "github.com/taigroddy/google-ads-pbices"
 	"google.golang.org/api/iterator"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
